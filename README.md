@@ -18,10 +18,10 @@ What it is doing is that, it is decreasing the amount of overconfident predictio
 ### Training trick
 For the first few epochs(here 3 epochs) CrossEntropy Loss is used to make the model confident.
 After that Label_Smoothing loss is used.
-After many experimentations I have found this gives the best performing model
+After many experimentations I have found this gives the best performing model.
 
 ### Results
-On Test data got micro_average_area = 0.9954 , macro_average_area = 0.995 , AUC for no substructure class  = 0.99715 , AUC for spherical class = 0.9913 , AUC for vortex class = 0.9957
+On Test data got micro_average_area = 0.9954 , macro_average_area = 0.995 , AUC for no substructure class  = 0.99715 , AUC for spherical class = 0.9913 , AUC for vortex class = 0.9957.
 
 
 ## Gravitational Lens Finding for Dark Matter Substructure approach
@@ -33,7 +33,7 @@ On Test data got micro_average_area = 0.9954 , macro_average_area = 0.995 , AUC 
 
 A data set comprising images with and without strong lenses. 
 
-For this task I developed a **Image and tabular data combined** solution. Only using image was giving good results but when I added the meta fetures it was giving the best.
+For this task I developed a **Image and tabular data combined** solution. Only using image was giving good results but when I added the meta fetures it was giving the best. Proper Feature Engineering shpould be done on the tabular(meta) features before feeding it to the Neural Network.
 
 The model uses transfer learning and uses both the image and meta features for final prediction. Here I use the *tf_efficientnet_b2_ns* backbone. Before the final layer of the model, the meta fetures are also go through a Linear layer and both the image's and meta feature's embeddings are concatenated before giving the final prediction.
 
