@@ -5,7 +5,7 @@
 ### Files
 1) common_task_train (train the model)
 2) common_task_test (Tests the model on test data)
-3) common_task_ROC curve with AUC
+3) common_task_result_curve
 
 The Dataset consists of three classes, strong lensing images with no substructure, subhalo substructure, and vortex substructure. 
 
@@ -29,7 +29,7 @@ On Test data got micro_average_area = 0.9954 , macro_average_area = 0.995 , AUC 
 ### Files
 1) G_lensing(Train) (train the model)
 2) G_lensing(Test) (Tests the model on test data)
-3) G_lensing_ROC curve 
+3) G_lensing_result_curve 
 
 A data set comprising images with and without strong lenses. 
 
