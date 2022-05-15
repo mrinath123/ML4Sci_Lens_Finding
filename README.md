@@ -35,7 +35,7 @@ A data set comprising images with and without strong lenses.
 
 For this task I developed a **Image and tabular data combined** solution. Only using image was giving good results but when I added the meta fetures it was giving the best. Proper Feature Engineering should be done on the tabular(meta) features before feeding it to the Neural Network.
 
-The model uses transfer learning and uses both the image and meta features for final prediction. Here I use the *tf_efficientnet_b2_ns* backbone. Before the final layer of the model, the meta fetures also go through a Linear layer and both the image's and meta feature's embeddings are concatenated before giving the final prediction.
+The model uses transfer learning and uses both the image and meta features for final prediction. Here I use the *tf_efficientnet_b2_ns* backbone. Before the final layer of the model, the meta features also go through a Linear layer and both the image's and meta feature's embeddings are concatenated before giving the final prediction.
 
 ### Results
 
