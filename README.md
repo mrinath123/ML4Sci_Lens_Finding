@@ -24,6 +24,9 @@ After many experimentations I have found this gives the best performing model.
 On Test data got micro_average_area = 0.9954 , macro_average_area = 0.995 , AUC for no substructure class  = 0.99715 , AUC for spherical class = 0.9913 , AUC for vortex class = 0.9957.
 
 
+![X2](https://user-images.githubusercontent.com/46323270/173889878-55c9792f-2287-40d8-bc37-4abcad4ca22e.png)
+
+
 ## Gravitational Lens Finding for Dark Matter Substructure approach
 
 ### Files
@@ -41,6 +44,7 @@ The model uses transfer learning and uses both the image and meta features for f
 
 The model on test (10% of whole data) got AUC of 0.977.
 
+![X1](https://user-images.githubusercontent.com/46323270/173889908-37465e97-d489-4870-8e32-d0637c4525e5.png)
 
 
 
